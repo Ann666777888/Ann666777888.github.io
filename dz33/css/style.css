@@ -1,0 +1,29 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 62.5%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    width: 41.66%;
+    }
+
+    .ul-list {
+        width: 26.4% ;
+        display: flex;
+        justify-content: space-between;
+        }
+
+        .red-line {
+            width: 60px;
+            height: 5px;
+            background-color: #f38181;
+        }

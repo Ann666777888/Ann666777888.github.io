@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Muli:wght@700&family=Oswald:wght@469;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:ital,wght@1,100&display=swap');
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+.wrapper2 {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 62.5%;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    width: 41.66%;
+
+}
+
+.ul-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Muli', sans-serif;
+    font-size: 15px;
+}
+
+.head-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Muli', sans-serif;
+    font-size: 40px;
+}
+
+.head-tex {
+    text-align: center;
+    position: relative;
+    top: 97px;
+    font-family: 'Kaushan Script', sans-serif;
+    font-size: 35px;
+}
+
+
+.red-line {
+    width: 60px;
+    height: 5px;
+    background-color: #f38181;
+    margin: 1px 0 50px 0;
+}
+
+.row {
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+}
+
+.item {
+    width: 28.33;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 20px 120px 20px;
+}
+
+.logo {
+    font-family: 'Muli', sans-serif;
+    font-size: 40px;
+    color: rgb(187, 235, 219);
+
+}
+
+li {
+    list-style-type: none;
+    color: rgb(187, 235, 219);
+}
+
+a {
+    color: rgb(187, 235, 219);
+}
+
+.lorem {
+    color: rgb(172, 172, 172);
+    font-family: 'Baloo Thambi 2', sans-serif;
+    font-size: 15px;
+}
+
+.paragraph {
+
+    color: rgb(172, 172, 172);
+    font-family: 'Baloo Thambi 2', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin: 0px 20px 0px 20px;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+
+a::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 5px;
+    transform: scale(0);
+    background-color: #f38181;
+    transition: all 0.2s;
+}
+
+a:hover::after {
+    transform: scale(1);
+}
+
+h4 {
+    font-weight: normal;
+    /* Нормальное начертание */
+}
+
+.select {
+    font-weight: 200;
+    /* Жирное начертание */
+}
+
+.img-man {
+    position: relative;
+    background-image: url(../man1.png);
+    width: 380px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 97px 20px 120px 20px;
+}
+.img-man2 {
+    position: relative;
+    background-image: url(../man2.png);
+    width: 380px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 97px 20px 120px 20px;
+}
+
+.img-man3 {
+    position: relative;
+    background-image: url(../man3.png);
+    width: 380px;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 97px 20px 120px 20px;
+}
+
+.gradient {
+    display: none;
+    width: 380px;
+    height: 470px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    opacity: 0.9;
+    background-image: linear-gradient(to bottom, rgb(255, 156, 117), rgb(254, 165, 120), rgb(253, 174, 123), rgb(253, 183, 126), rgb(252, 192, 129), rgb(251, 201, 132), rgb(250, 210, 135), rgb(249, 219, 138), rgb(248, 228, 141), rgb(248, 237, 144), rgb(247, 246, 147), rgb(246, 255, 150));
+}
+
+.img-man:hover .gradient {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-man2:hover .gradient {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-man3:hover .gradient {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 58px;
+    height: 58px;
+}
+.img-background {
+    background-color: #fce38a;
+    width: 39px;
+    height: 39px;
+}
+
+.img-background2 {
+    background-color: #fce38a;
+    width: 39px;
+    height: 39px;
+}
+
+.img-background3 {
+    background-color: #fce38a;
+    width: 39px;
+    height: 39px;
+}
+
+.img-background4 {
+    background-color: #fce38a;
+    width: 39px;
+    height: 39px;
+}
+.team {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.team-description {
+    text-align: center;
+}
+.h5-text {
+    font-family: 'Montserrat', sans-serif;
+}
+.h6-text {
+    font-family: 'Roboto', sans-serif;
+color: #d0d0d0;
+
+}
