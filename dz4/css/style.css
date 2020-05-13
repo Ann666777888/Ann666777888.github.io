@@ -4,6 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+@font-face {
+    font-family: 'WisdomScript';
+    src: local(WisdomScript), url(../fonts/WisdomScript/Wisdom_Script_AJ.otf);
+}
 .wrapper {
 
     display: flex;
@@ -28,7 +32,7 @@
 
 li {
     list-style-type: none;
-    padding-right: 40px;
+    padding-right: 20px;
 
 }
 
@@ -49,6 +53,7 @@ nav {
 
 .links {
     width: 41.66%;
+    margin-right: 110px;
 }
 
 .ul-list {
@@ -57,21 +62,19 @@ nav {
     justify-content: space-between;
     font-family: 'Montserrat', sans-serif;
     margin-top: 28px;
-    margin-left: 5px;
+   
     margin-left: unset;
 }
 
 .logo {
-    font-family: 'Dancing Script', sans-serif;
+    font-family: 'Wisdom Script', sans-serif;
     font-size: 50px;
     color: rgb(187, 235, 219);
     margin-bottom: 50px;
-    margin-right: 450px;
     margin-top: 28px;
     font-weight: bold;
     color: #fed136;
-    ;
-    margin-left: 200px;
+margin-right: 100px;
 }
 
 .head-tex {
@@ -153,6 +156,7 @@ flex-direction: column;
     font-size: 30px;
     margin-top: 50px;
     color: white;
+    padding-top: 110px;
 }
 
 .head-text2 {
@@ -163,6 +167,7 @@ flex-direction: column;
     font-family: 'Libre Baskerville', sans-serif;
     color: #989898;
     margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 .input-big{
     width: 300px;
@@ -175,9 +180,9 @@ padding-left: 15px;
 }
 .input-small{
     height: 30px;
-    width: 300px;
+    width: 350px;
     margin-top: 20px;
-    margin-left:370px ;
+    margin-left:300px ;
     font-family: 'Montserrat', sans-serif;
     color:#989898 ;
     padding-left: 15px;
